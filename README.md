@@ -1,7 +1,9 @@
 # project_12_group
+В этом учебном проекте мы попытаемся подобрать модель для решения задачи "классификации текста"  
+на русском языке и создать web-приложение на основе этой модели.
+Под "классификации текста" мы понимаем - присвоение метки или класса конкретному тексту. 
 Модель выбирали с помощью следующих ресурсов:
 1) https://huggingface.co/models  
 2) https://tfhub.dev/s?subtype=module,placeholder  
-3) рейтинг русских NLP моделей:
-https://russiansuperglue.com/leaderboard/2  
+3) рейтинг русских NLP моделей: https://russiansuperglue.com/leaderboard/2  
 
