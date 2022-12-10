@@ -15,6 +15,7 @@ Work№1
 1) https://huggingface.co/models  
 2) https://tfhub.dev/s?subtype=module,placeholder  
 3) рейтинг русских NLP моделей: https://russiansuperglue.com/leaderboard/2  
+
 Work№2  
 Приложение работающее через streamlit
 Пробовали разные варианты, не все модели работали почему-то.
