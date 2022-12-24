@@ -10,8 +10,6 @@ from transformers import BertTokenizerFast
 @st.cache
 def load_model():
 	return AutoModelForSequenceClassification.from_pretrained('blanchefort/rubert-base-cased-sentiment', return_dict=True)
-
-@st.cache
 def load_tokenizer():
     return BertTokenizerFast.from_pretrained('blanchefort/rubert-base-cased-sentiment')
 tokenizer = load_tokenizer()
