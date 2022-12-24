@@ -7,8 +7,15 @@ from transformers import AutoModelForSequenceClassification
 from transformers import BertTokenizerFast
 
 # Токенизатор и модель взята с hugginface "https://huggingface.co/blanchefort/rubert-base-cased-sentiment"
-tokenizer = BertTokenizerFast.from_pretrained('blanchefort/rubert-base-cased-sentiment')
-model = AutoModelForSequenceClassification.from_pretrained('blanchefort/rubert-base-cased-sentiment', return_dict=True)
+@st.cache
+def load_model():
+	return AutoModelForSequenceClassification.from_pretrained('blanchefort/rubert-base-cased-sentiment', return_dict=True)
+
+@st.cache
+def load_tokenizer():
+    return BertTokenizerFast.from_pretrained('blanchefort/rubert-base-cased-sentiment')
+tokenizer = load_tokenizer()
+model = load_model()
 
 # Ниже описана функция метода predict 
 #@torch.no_grad()
