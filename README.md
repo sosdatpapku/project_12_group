@@ -26,3 +26,7 @@ Work№1
 Work№2  
 Приложение работающее через streamlit
 Пробовали разные варианты, не все модели работали почему-то.
+
+----
+1 апреля
+https://blog.skillfactory.ru/kak-pravilno-oformit-profil-github-novichku/
